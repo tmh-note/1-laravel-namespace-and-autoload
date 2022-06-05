@@ -1,0 +1,10 @@
+{
+    "autoload": {
+        "classmap": [
+            "my_classmap"
+        ],
+        "psr-4": {
+            "MyPsr4\\":"my_psr4/"
+        }
+    }
+}

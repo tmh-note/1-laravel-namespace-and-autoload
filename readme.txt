@@ -1,1 +1,4 @@
 - Custom Autoload
+- Namespace
+- classmap
+- psr-4
