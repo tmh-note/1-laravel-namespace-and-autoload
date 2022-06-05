@@ -1,9 +1,6 @@
 <?php
 
-spl_autoload_register(function($class) {
-    $file  = str_replace("\\", "/", $class);
-    include "./$file.php";
-});
+include './autoload.php';
 
 use Zoo\Animal\Cat;
 use Zoo\Animal\Dog;
